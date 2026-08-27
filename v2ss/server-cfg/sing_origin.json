@@ -48,6 +48,12 @@
             "server_port": 40000
         },
         {
+            "type": "direct",
+            "tag": "warp-v6-out",
+            "domain_strategy": "prefer_ipv6",
+            "bind_interface": "warp"
+        },
+        {
             "tag": "IPv4_out",
             "type": "direct",
             "domain_strategy": "ipv4_only"
@@ -128,7 +134,7 @@
                     "bitninja.com",
                     "dlynankz.biz",
                     "gjogvvpsf.biz",
-                    "shadowserver.org",	
+                    "shadowserver.org",
                     "ceye.io"
                 ],
                 "outbound": "block"
